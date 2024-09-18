@@ -28,6 +28,7 @@ public class CubeInteraction : MonoBehaviour
             interactionText.SetActive(false);  // UI Text tekrar gizlenir
         }
     }
+
     void Update()
     {
         if (interactionText.activeSelf && Input.GetKeyDown(KeyCode.E))
